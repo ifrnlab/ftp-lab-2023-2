@@ -1,5 +1,7 @@
 #!/bin/sh
 
+docker exec -it vsftpd
+
 while read conta senha; do 
     mkdir /home/vsftpd/$conta;
     echo -e "${conta}\n${senha}" >> /etc/vsftpd/virtual_users.txt;
