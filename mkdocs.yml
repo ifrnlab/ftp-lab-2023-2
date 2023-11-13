@@ -1,0 +1,12 @@
+site_name: Lab. de FTP
+site_dir: /var/www/html/doc
+
+theme:
+  name: material
+  language: pt
+
+markdown_extensions:
+  - pymdownx.emoji
+
+plugins:
+    - mermaid2
